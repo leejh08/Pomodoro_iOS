@@ -1,8 +1,8 @@
 {
-  "externalDependencies" : [
-
-  ],
   "externalProjects" : [
 
-  ]
+  ],
+  "externalDependencies" : {
+
+  }
 }

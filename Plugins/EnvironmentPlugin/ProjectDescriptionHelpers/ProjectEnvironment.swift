@@ -10,9 +10,9 @@ public struct ProjectEnvironment {
 }
 
 public let env = ProjectEnvironment(
-    appName: "ProjectName",
-    targetName: "ProjectName",
-    organizationName: "com.bundle.id",
+    appName: "Pomodoro",
+    targetName: "Pomodoro",
+    organizationName: "com.jihoon.id",
     deploymentTarget: .iOS(targetVersion: "16.0", devices: .iphone),
     platform: .iOS,
     baseSetting: ["OTHER_LDFLAGS": ["$(inherited) -Objc"]]
