@@ -9,6 +9,7 @@ let project = Project.makeModule(
     dependencies: [
         .SPM.Then,
         .SPM.RxSwift,
-        .SPM.SnapKit
+        .SPM.SnapKit,
+        .SPM.RxCocoa
     ]
 )

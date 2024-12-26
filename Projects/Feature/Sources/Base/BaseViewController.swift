@@ -26,7 +26,6 @@ open class BaseViewController<ViewModel: BaseViewModel>: UIViewController {
         super.viewDidLoad()
         attribute()
         bind()
-        configureNavigationBar()
     }
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
