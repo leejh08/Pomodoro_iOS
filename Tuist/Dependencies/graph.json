@@ -1,8 +1,2903 @@
 {
-  "externalProjects" : [
-
-  ],
   "externalDependencies" : {
+    "Then" : [
+      {
+        "project" : {
+          "target" : "Then",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then"
+        }
+      }
+    ],
+    "RxRelay" : [
+      {
+        "project" : {
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+          "target" : "RxRelay"
+        }
+      }
+    ],
+    "RxCocoa-Dynamic" : [
+      {
+        "project" : {
+          "target" : "RxCocoa",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+        }
+      }
+    ],
+    "RxBlocking" : [
+      {
+        "project" : {
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+          "target" : "RxBlocking"
+        }
+      }
+    ],
+    "RxSwift" : [
+      {
+        "project" : {
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+          "target" : "RxSwift"
+        }
+      }
+    ],
+    "RxRelay-Dynamic" : [
+      {
+        "project" : {
+          "target" : "RxRelay",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+        }
+      }
+    ],
+    "RxBlocking-Dynamic" : [
+      {
+        "project" : {
+          "target" : "RxBlocking",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+        }
+      }
+    ],
+    "RxSwift-Dynamic" : [
+      {
+        "project" : {
+          "target" : "RxSwift",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+        }
+      }
+    ],
+    "RxCocoa" : [
+      {
+        "project" : {
+          "target" : "RxCocoa",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+        }
+      }
+    ],
+    "RxTest" : [
+      {
+        "project" : {
+          "target" : "RxTest",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift"
+        }
+      }
+    ],
+    "RxTest-Dynamic" : [
+      {
+        "project" : {
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+          "target" : "RxTest"
+        }
+      }
+    ],
+    "SnapKit" : [
+      {
+        "project" : {
+          "target" : "SnapKit",
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit"
+        }
+      }
+    ],
+    "SnapKit-Dynamic" : [
+      {
+        "project" : {
+          "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+          "target" : "SnapKit"
+        }
+      }
+    ]
+  },
+  "externalProjects" : [
+    "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+    {
+      "settings" : {
+        "base" : {
+          "SWIFT_VERSION" : {
+            "string" : {
+              "_0" : "5.0.0"
+            }
+          }
+        },
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
 
-  }
+            ]
+          }
+        },
+        "baseDebug" : {
+
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ]
+      },
+      "xcodeProjPath" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/SnapKit.xcodeproj",
+      "options" : {
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "textSettings" : {
+
+        },
+        "disableSynthesizedResourceAccessors" : true,
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableBundleAccessors" : false
+      },
+      "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "isExternal" : true,
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "additionalFiles" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "name" : "SnapKit",
+      "schemes" : [
+
+      ],
+      "sourceRootPath" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit",
+      "packages" : [
+
+      ],
+      "resourceSynthesizers" : [
+        {
+          "parserOptions" : {
+
+          },
+          "parser" : "strings",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ]
+        },
+        {
+          "parserOptions" : {
+
+          },
+          "parser" : "assets",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          },
+          "extensions" : [
+            "xcassets"
+          ]
+        },
+        {
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parserOptions" : {
+
+          }
+        },
+        {
+          "extensions" : [
+            "ttc",
+            "ttf",
+            "otf"
+          ],
+          "parser" : "fonts",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parserOptions" : {
+
+          }
+        }
+      ],
+      "targets" : [
+        {
+          "destinations" : [
+            "iPad",
+            "appleVisionWithiPadDesign",
+            "macWithiPadDesign",
+            "iPhone"
+          ],
+          "launchArguments" : [
+
+          ],
+          "productName" : "SnapKit",
+          "additionalFiles" : [
+
+          ],
+          "prune" : false,
+          "mergeable" : false,
+          "dependencies" : [
+
+          ],
+          "resources" : [
+            {
+              "file" : {
+                "tags" : [
+
+                ],
+                "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/PrivacyInfo.xcprivacy"
+              }
+            }
+          ],
+          "coreDataModels" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "buildRules" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "name" : "SnapKit",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupportDSL.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelatableTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerEditable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerFinalizable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriority.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConfig.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMultiplierTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerExtendable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintView.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuideDSL.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintAttributes.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintItem.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutSupport.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintRelation.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDescription.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDSL.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsets.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Debugging.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintOffsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerRelatable+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/UILayoutSupport+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintInsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintConstantTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Constraint.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMaker.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/Typealiases.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintMakerPrioritizable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsetTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/LayoutConstraint.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintLayoutGuide.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintPriorityTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintViewDSL.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/SnapKit\/Sources\/ConstraintDirectionalInsets.swift"
+            }
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "scripts" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "product" : "framework",
+          "bundleId" : "SnapKit",
+          "settings" : {
+            "baseDebug" : {
+
+            },
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            },
+            "configurations" : [
+              {
+                "variant" : "debug",
+                "name" : "Debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "variant" : "release",
+                "name" : "Release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "base" : {
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            }
+          },
+          "copyFiles" : [
+
+          ]
+        }
+      ]
+    },
+    "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+    {
+      "xcodeProjPath" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/RxSwift.xcodeproj",
+      "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+      "additionalFiles" : [
+
+      ],
+      "schemes" : [
+
+      ],
+      "name" : "RxSwift",
+      "resourceSynthesizers" : [
+        {
+          "parserOptions" : {
+
+          },
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          },
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ],
+          "parser" : "strings"
+        },
+        {
+          "parserOptions" : {
+
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          }
+        },
+        {
+          "parser" : "plists",
+          "extensions" : [
+            "plist"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "parserOptions" : {
+
+          }
+        },
+        {
+          "parser" : "fonts",
+          "parserOptions" : {
+
+          },
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ]
+        }
+      ],
+      "isExternal" : true,
+      "sourceRootPath" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift",
+      "packages" : [
+
+      ],
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "lastUpgradeCheck" : "99.9.9",
+      "options" : {
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        },
+        "disableBundleAccessors" : false,
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "textSettings" : {
+
+        }
+      },
+      "settings" : {
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        },
+        "base" : {
+          "SWIFT_VERSION" : {
+            "string" : {
+              "_0" : "5.0.0"
+            }
+          }
+        },
+        "configurations" : [
+          {
+            "name" : "Debug",
+            "variant" : "debug"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "variant" : "release",
+            "name" : "Release"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "baseDebug" : {
+
+        }
+      },
+      "targets" : [
+        {
+          "scripts" : [
+
+          ],
+          "productName" : "RxSwift",
+          "launchArguments" : [
+
+          ],
+          "copyFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "coreDataModels" : [
+
+          ],
+          "prune" : false,
+          "mergeable" : false,
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Map.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Linux.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ImmediateSchedulerType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalSchedulerTimeConverter.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Never.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Generate.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipUntil.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsMaybe.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubjectType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Filter.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+PrimitiveSequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ShareReplayScope.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousObserver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+CombineLatest+arity.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompactMap.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AtomicInt.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Errors.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Operators.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupBy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence+Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TailRecursiveSink.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/LockOwnerType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueue+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/WithLatestFrom.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeWithPredicate.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BehaviorSubject.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItem.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/WithUnretained.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableConvertibleType+Infallible.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveLock.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsSingle.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBase.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnyObserver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscriptionDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Queue.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SubscribeOn.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConnectableObservableType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Create.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Switch.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Repeat.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Zip+arity.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timeout.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentDispatchQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledItemType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Optional.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedOnType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CompositeDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PriorityQueue.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DisposeBag.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserveOn.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DefaultIfEmpty.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+arity.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AnonymousDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reactive.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sink.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/First.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Observable+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Throttle.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Create.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RefCountDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Multicast.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Deferred.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedDisposeType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/TakeLast.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Amb.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Observable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/VirtualTimeConverterType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Just.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debounce.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DispatchQueueConfiguration.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Do.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Single.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwitchIfEmpty.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Date+Dispatch.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Zip+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Timer.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BinaryDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ElementAt.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Error.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Merge.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CombineLatest+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncLock.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/BooleanDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Materialize.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Lock.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Take.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Concat.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Maybe.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Decode.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/CurrentThreadScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverBase.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableScheduledItem.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AsyncSubject.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Scan.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrimitiveSequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ReplaySubject.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ConcurrentMainScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ToArray.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Reduce.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RxMutableBox.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Window.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Skip.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PublishSubject.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Event.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObserverType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Delay.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+Debug.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SchedulerServices+Emulation.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SkipWhile.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ObservableConvertibleType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InvocableType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RecursiveScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/OperationQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Debug.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sample.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Platform.Darwin.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/ScheduledDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SwiftSupport.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/HistoricalScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/RetryWhen.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Enumerated.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Dematerialize.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Binder.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/MainScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/AddRef.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/GroupedObservable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Cancelable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Infallible+CombineLatest+Collection.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SerialDispatchQueueScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAsync.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Empty.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Catch.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DelaySubscription.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Disposables.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SingleAssignmentDisposable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Sequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Buffer.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/InfiniteSequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Producer.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Bag+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Completable+AndThen.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/StartWith.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/SynchronizedUnsubscribeType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Using.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/DistinctUntilChanged.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/Range.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/NopDisposable.swift"
+            }
+          ],
+          "buildRules" : [
+
+          ],
+          "bundleId" : "RxSwift",
+          "destinations" : [
+            "macWithiPadDesign",
+            "appleVisionWithiPadDesign",
+            "iPad",
+            "iPhone"
+          ],
+          "product" : "framework",
+          "rawScriptBuildPhases" : [
+
+          ],
+          "name" : "RxSwift",
+          "dependencies" : [
+
+          ],
+          "resources" : [
+            {
+              "file" : {
+                "tags" : [
+
+                ],
+                "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxSwift\/PrivacyInfo.xcprivacy"
+              }
+            }
+          ],
+          "playgrounds" : [
+
+          ],
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "settings" : {
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            },
+            "baseDebug" : {
+
+            }
+          },
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "environmentVariables" : {
+
+          },
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "additionalFiles" : [
+
+          ]
+        },
+        {
+          "prune" : false,
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "productName" : "RxCocoa",
+          "settings" : {
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "variant" : "release",
+                "name" : "Release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "baseDebug" : {
+
+            },
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+Swift.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISegmentedControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIGestureRecognizer+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIRefreshControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Observable+Bind.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators+arity.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextField+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Concurrency.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoaObjCRuntimeError+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSSlider+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewReactiveArrayDataSource.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/URLSession+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITextField+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBarController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Infallible+Bind.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCocoa.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlTarget.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIButton+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable+CoreGraphics.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/BehaviorRelay+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/KVORepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ItemEvents.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIApplication+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ObservableConvertibleType+SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISlider+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UINavigationController+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSTextStorage+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Signal+Subscription.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISearchBar+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIControl+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/WKWebView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/TextInput.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/PublishRelay+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTabBarControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIActivityIndicatorView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UICollectionView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourcePrefetchingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITableView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIStepper+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SharedSequence+Operators.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIPickerView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchBarDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewReactiveArrayDataSource.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxScrollViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SchedulerType+SharedSequence.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlEvent+Signal.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Driver+Subscription.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxSearchControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxNavigationControllerDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIBarButtonItem+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DelegateProxyType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextStorageDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UITabBar+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+KVORepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxCollectionViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NotificationCenter+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewAdapter.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTextViewDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIDatePicker+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSButton+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxWKNavigationDelegateProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/DispatchQueue+Extensions.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UISwitch+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/NSObject+Rx+RawRepresentable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxTableViewDataSourcePrefetchingProxy.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/ControlProperty+Driver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/SectionedViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/UIScrollView+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/RxPickerViewDataSourceType.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/Infallible+Driver.swift"
+            }
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "copyFiles" : [
+
+          ],
+          "scripts" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "rawScriptBuildPhases" : [
+
+          ],
+          "mergeable" : false,
+          "buildRules" : [
+
+          ],
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "destinations" : [
+            "iPhone",
+            "macWithiPadDesign",
+            "appleVisionWithiPadDesign",
+            "iPad"
+          ],
+          "name" : "RxCocoa",
+          "environmentVariables" : {
+
+          },
+          "product" : "framework",
+          "coreDataModels" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "resources" : [
+            {
+              "file" : {
+                "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoa\/PrivacyInfo.xcprivacy",
+                "tags" : [
+
+                ]
+              }
+            }
+          ],
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "RxSwift"
+              }
+            },
+            {
+              "target" : {
+                "name" : "RxRelay"
+              }
+            },
+            {
+              "target" : {
+                "name" : "RxCocoaRuntime"
+              }
+            }
+          ],
+          "bundleId" : "RxCocoa",
+          "playgrounds" : [
+
+          ]
+        },
+        {
+          "headers" : {
+            "project" : [
+
+            ],
+            "private" : [
+
+            ],
+            "public" : [
+              "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RXKVOObserver.h",
+              "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RXObjCRuntime.h",
+              "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RXDelegateProxy.h",
+              "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/_RX.h",
+              "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/include\/RxCocoaRuntime.h"
+            ]
+          },
+          "environmentVariables" : {
+
+          },
+          "destinations" : [
+            "macWithiPadDesign",
+            "iPad",
+            "iPhone",
+            "appleVisionWithiPadDesign"
+          ],
+          "additionalFiles" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "buildRules" : [
+
+          ],
+          "bundleId" : "RxCocoaRuntime",
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "RxSwift"
+              }
+            }
+          ],
+          "copyFiles" : [
+
+          ],
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "name" : "RxCocoaRuntime",
+          "settings" : {
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "HEADER_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(SRCROOT)\/Sources\/RxCocoaRuntime\/include"
+                  ]
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            },
+            "baseDebug" : {
+
+            }
+          },
+          "product" : "framework",
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "mergeable" : false,
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "resources" : [
+            {
+              "file" : {
+                "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/PrivacyInfo.xcprivacy",
+                "tags" : [
+
+                ]
+              }
+            }
+          ],
+          "coreDataModels" : [
+
+          ],
+          "productName" : "RxCocoaRuntime",
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXObjCRuntime.m"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXKVOObserver.m"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RX.m"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxCocoaRuntime\/_RXDelegateProxy.m"
+            }
+          ],
+          "launchArguments" : [
+
+          ],
+          "prune" : false,
+          "scripts" : [
+
+          ]
+        },
+        {
+          "playgrounds" : [
+
+          ],
+          "productName" : "RxRelay",
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "RxSwift"
+              }
+            }
+          ],
+          "product" : "framework",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "name" : "RxRelay",
+          "mergeable" : false,
+          "destinations" : [
+            "appleVisionWithiPadDesign",
+            "iPhone",
+            "macWithiPadDesign",
+            "iPad"
+          ],
+          "scripts" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "prune" : false,
+          "bundleId" : "RxRelay",
+          "resources" : [
+            {
+              "file" : {
+                "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/PrivacyInfo.xcprivacy",
+                "tags" : [
+
+                ]
+              }
+            }
+          ],
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Utils.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/BehaviorRelay.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/Observable+Bind.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/ReplayRelay.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxRelay\/PublishRelay.swift"
+            }
+          ],
+          "coreDataModels" : [
+
+          ],
+          "copyFiles" : [
+
+          ],
+          "buildRules" : [
+
+          ],
+          "settings" : {
+            "base" : {
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "baseDebug" : {
+
+            },
+            "configurations" : [
+              {
+                "name" : "Release",
+                "variant" : "release"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "variant" : "debug",
+                "name" : "Debug"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "environmentVariables" : {
+
+          },
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "launchArguments" : [
+
+          ],
+          "rawScriptBuildPhases" : [
+
+          ]
+        },
+        {
+          "settings" : {
+            "configurations" : [
+              {
+                "variant" : "debug",
+                "name" : "Debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "variant" : "release",
+                "name" : "Release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "baseDebug" : {
+
+            },
+            "base" : {
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            }
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/BlockingObservable+Operators.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Linux.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/AtomicInt.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RecursiveLock.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Platform.Darwin.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/Resources.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/ObservableConvertibleType+Blocking.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxBlocking\/RunLoopLock.swift"
+            }
+          ],
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "prune" : false,
+          "environmentVariables" : {
+
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "name" : "RxBlocking",
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "productName" : "RxBlocking",
+          "buildRules" : [
+
+          ],
+          "bundleId" : "RxBlocking",
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "mergeable" : false,
+          "coreDataModels" : [
+
+          ],
+          "resources" : [
+
+          ],
+          "launchArguments" : [
+
+          ],
+          "copyFiles" : [
+
+          ],
+          "product" : "framework",
+          "scripts" : [
+
+          ],
+          "destinations" : [
+            "iPhone",
+            "macWithiPadDesign",
+            "iPad",
+            "appleVisionWithiPadDesign"
+          ],
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "RxSwift"
+              }
+            }
+          ]
+        },
+        {
+          "destinations" : [
+            "iPhone",
+            "macWithiPadDesign",
+            "appleVisionWithiPadDesign",
+            "iPad"
+          ],
+          "prune" : false,
+          "product" : "framework",
+          "launchArguments" : [
+
+          ],
+          "buildRules" : [
+
+          ],
+          "resources" : [
+
+          ],
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "environmentVariables" : {
+
+          },
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestScheduler.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Subscription.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded+Event.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObserver.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Any+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/ColdObservable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/XCTest+Rx.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Event+Equatable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestSchedulerVirtualTimeConverter.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/TestableObservable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/HotObservable.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Recorded.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/RxTest.swift"
+            },
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/RxSwift\/Sources\/RxTest\/Bag.swift"
+            }
+          ],
+          "name" : "RxTest",
+          "copyFiles" : [
+
+          ],
+          "scripts" : [
+
+          ],
+          "mergeable" : false,
+          "playgrounds" : [
+
+          ],
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "productName" : "RxTest",
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "settings" : {
+            "baseDebug" : {
+
+            },
+            "base" : {
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_TESTING_SEARCH_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            },
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            },
+            "configurations" : [
+              {
+                "name" : "Debug",
+                "variant" : "debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "variant" : "release",
+                "name" : "Release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ]
+          },
+          "bundleId" : "RxTest",
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "additionalFiles" : [
+
+          ],
+          "dependencies" : [
+            {
+              "target" : {
+                "name" : "RxSwift"
+              }
+            }
+          ],
+          "coreDataModels" : [
+
+          ]
+        }
+      ]
+    },
+    "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+    {
+      "schemes" : [
+
+      ],
+      "lastUpgradeCheck" : "99.9.9",
+      "isExternal" : true,
+      "xcodeProjPath" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Then.xcodeproj",
+      "additionalFiles" : [
+
+      ],
+      "options" : {
+        "textSettings" : {
+
+        },
+        "disableShowEnvironmentVarsInScriptPhases" : false,
+        "disableBundleAccessors" : false,
+        "disableSynthesizedResourceAccessors" : true,
+        "automaticSchemesOptions" : {
+          "disabled" : {
+
+          }
+        }
+      },
+      "settings" : {
+        "defaultSettings" : {
+          "recommended" : {
+            "excluding" : [
+
+            ]
+          }
+        },
+        "configurations" : [
+          {
+            "name" : "Release",
+            "variant" : "release"
+          },
+          {
+            "settings" : {
+
+            }
+          },
+          {
+            "variant" : "debug",
+            "name" : "Debug"
+          },
+          {
+            "settings" : {
+
+            }
+          }
+        ],
+        "baseDebug" : {
+
+        },
+        "base" : {
+
+        }
+      },
+      "packages" : [
+
+      ],
+      "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+      "filesGroup" : {
+        "group" : {
+          "name" : "Project"
+        }
+      },
+      "resourceSynthesizers" : [
+        {
+          "parserOptions" : {
+
+          },
+          "parser" : "strings",
+          "extensions" : [
+            "stringsdict",
+            "strings"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Strings"
+            }
+          }
+        },
+        {
+          "parserOptions" : {
+
+          },
+          "parser" : "assets",
+          "extensions" : [
+            "xcassets"
+          ],
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Assets"
+            }
+          }
+        },
+        {
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Plists"
+            }
+          },
+          "extensions" : [
+            "plist"
+          ],
+          "parserOptions" : {
+
+          },
+          "parser" : "plists"
+        },
+        {
+          "parser" : "fonts",
+          "template" : {
+            "defaultTemplate" : {
+              "_0" : "Fonts"
+            }
+          },
+          "parserOptions" : {
+
+          },
+          "extensions" : [
+            "otf",
+            "ttc",
+            "ttf"
+          ]
+        }
+      ],
+      "targets" : [
+        {
+          "infoPlist" : {
+            "extendingDefault" : {
+              "with" : {
+
+              }
+            }
+          },
+          "filesGroup" : {
+            "group" : {
+              "name" : "Project"
+            }
+          },
+          "rawScriptBuildPhases" : [
+
+          ],
+          "dependencies" : [
+
+          ],
+          "product" : "staticFramework",
+          "prune" : false,
+          "deploymentTargets" : {
+            "iOS" : "12.0"
+          },
+          "mergeable" : false,
+          "name" : "Then",
+          "launchArguments" : [
+
+          ],
+          "sources" : [
+            {
+              "path" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then\/Sources\/Then\/Then.swift"
+            }
+          ],
+          "coreDataModels" : [
+
+          ],
+          "copyFiles" : [
+
+          ],
+          "destinations" : [
+            "macWithiPadDesign",
+            "iPhone",
+            "appleVisionWithiPadDesign",
+            "iPad"
+          ],
+          "scripts" : [
+
+          ],
+          "playgrounds" : [
+
+          ],
+          "resources" : [
+
+          ],
+          "bundleId" : "Then",
+          "buildRules" : [
+
+          ],
+          "environmentVariables" : {
+
+          },
+          "mergedBinaryType" : {
+            "disabled" : {
+
+            }
+          },
+          "additionalFiles" : [
+
+          ],
+          "productName" : "Then",
+          "settings" : {
+            "defaultSettings" : {
+              "recommended" : {
+                "excluding" : [
+
+                ]
+              }
+            },
+            "configurations" : [
+              {
+                "variant" : "debug",
+                "name" : "Debug"
+              },
+              {
+                "settings" : {
+
+                }
+              },
+              {
+                "variant" : "release",
+                "name" : "Release"
+              },
+              {
+                "settings" : {
+
+                }
+              }
+            ],
+            "baseDebug" : {
+
+            },
+            "base" : {
+              "SWIFT_SUPPRESS_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "FRAMEWORK_SEARCH_PATHS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "$(PLATFORM_DIR)\/Developer\/Library\/Frameworks"
+                  ]
+                }
+              },
+              "CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ENABLE_STRICT_OBJC_MSGSEND" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "ALWAYS_SEARCH_USER_PATHS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "GCC_WARN_INHIBIT_ALL_WARNINGS" : {
+                "string" : {
+                  "_0" : "YES"
+                }
+              },
+              "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : {
+                "string" : {
+                  "_0" : "$(inherited) SWIFT_PACKAGE"
+                }
+              },
+              "CLANG_ENABLE_OBJC_WEAK" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_NO_COMMON_BLOCKS" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              },
+              "GCC_PREPROCESSOR_DEFINITIONS" : {
+                "array" : {
+                  "_0" : [
+                    "$(inherited)",
+                    "SWIFT_PACKAGE=1"
+                  ]
+                }
+              },
+              "USE_HEADERMAP" : {
+                "string" : {
+                  "_0" : "NO"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "sourceRootPath" : "\/Users\/leejh\/Desktop\/Pomodoro_iOS\/Tuist\/Dependencies\/SwiftPackageManager\/.build\/checkouts\/Then",
+      "name" : "Then"
+    }
+  ]
 }
