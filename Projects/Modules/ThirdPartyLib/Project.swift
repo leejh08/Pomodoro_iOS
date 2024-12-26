@@ -10,6 +10,7 @@ let project = Project.makeModule(
         .SPM.Then,
         .SPM.RxSwift,
         .SPM.SnapKit,
-        .SPM.RxCocoa
+        .SPM.RxCocoa,
+        .SPM.Swinject
     ]
 )
