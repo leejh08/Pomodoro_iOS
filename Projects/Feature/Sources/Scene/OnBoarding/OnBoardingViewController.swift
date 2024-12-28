@@ -12,4 +12,12 @@ import DesignSystem
 public class OnboardingViewController: BaseViewController<OnboardingViewModel> {
     
     
+    
+    
+    public override func attribute() {
+        super.attribute()
+        
+        
+        
+    }
 }

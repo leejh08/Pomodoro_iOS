@@ -14,7 +14,7 @@ let configurations: [Configuration] = [
 
 let settings: Settings = .settings(
     base: env.baseSetting,
-//    configurations: configurations,
+    configurations: configurations,
     defaultSettings: .recommended
 )
 
@@ -25,16 +25,18 @@ let targets: [Target] = [
         name: env.targetName,
         platform: env.platform,
         product: .app,
-        bundleId: "\(env.organizationName)",
+        bundleId: "$(APP_BUNDLE_ID)",
         deploymentTarget: env.deploymentTarget,
         infoPlist: .file(path: "Support/Info.plist"),
         sources: ["Sources/**"],
         resources: ["Resources/**"],
+        entitlements: "Support/\(env.appName).entitlements",
         scripts: scripts,
         dependencies: [
-            .Projects.feature
-        ]
-//        settings: .settings(base: env.baseSetting)
+            .Projects.flow,
+//            .SPM.FCM
+        ],
+        settings: .settings(base: env.baseSetting)
     )
 ]
 
@@ -62,7 +64,8 @@ let schemes: [Scheme] = [
 let project = Project(
     name: env.targetName,
     organizationName: env.organizationName,
+//    packages: [.FCM],
     settings: settings,
-    targets: targets
-//    schemes: schemes
+    targets: targets,
+    schemes: schemes
 )
