@@ -3,10 +3,11 @@ import ProjectDescriptionHelpers
 import DependencyPlugin
 
 let project = Project.makeModule(
-    name: "Service",
+    name: "Data",
     platform: .iOS,
-    product: .framework,
+    product: .staticFramework,
     dependencies: [
-        .Projects.core
+        .Projects.domain,
+        .Module.appNetwork
     ]
 )

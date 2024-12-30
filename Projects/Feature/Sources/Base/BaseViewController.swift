@@ -45,15 +45,9 @@ open class BaseViewController<ViewModel: BaseViewModel>: UIViewController {
 
     open func attribute() {
         // 뷰 관련 코드를 설정하는 함수
-        view.backgroundColor = .background
-
-        navigationController?.interactivePopGestureRecognizer?.delegate = self
+        view.backgroundColor = .systemBackground
     }
-//    open func configureNavigationBar() {
-//        // 네비게이션바 관련 코드를 설정하는 함수
-//        navigationTitleLabel.text = navigationTitleText
-//        navigationItem.titleView = navigationTitleLabel
-//    }
+    
     open func configureNavgationBarLayOutSubviews() {
         // viewDidLayoutSubviews에서 네비게이션바 관련 코드를 호출하는 함수
         navigationController?.isNavigationBarHidden = false
@@ -73,8 +67,4 @@ open class BaseViewController<ViewModel: BaseViewModel>: UIViewController {
     open func setLayoutData() {
         // 뷰 관련 데이터를 호출하는데 사용하는 함수
     }
-
-//    open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-//        view.endEditing(true)
-//    }
 }

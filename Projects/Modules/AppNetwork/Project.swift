@@ -3,14 +3,10 @@ import ProjectDescriptionHelpers
 import DependencyPlugin
 
 let project = Project.makeModule(
-    name: "ThirdPartyLib",
+    name: "AppNetwork",
     platform: .iOS,
     product: .staticFramework,
     dependencies: [
-        .SPM.Then,
-        .SPM.RxSwift,
-        .SPM.SnapKit,
-        .SPM.RxCocoa,
-        .SPM.Swinject
+        .Projects.core
     ]
 )

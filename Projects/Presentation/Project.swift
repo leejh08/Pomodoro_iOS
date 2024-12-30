@@ -3,14 +3,12 @@ import ProjectDescriptionHelpers
 import DependencyPlugin
 
 let project = Project.makeModule(
-    name: "ThirdPartyLib",
+    name: "Presentation",
+    resources: ["Resources/**"], // 리소스 경로 추가
     platform: .iOS,
     product: .staticFramework,
     dependencies: [
-        .SPM.Then,
-        .SPM.RxSwift,
-        .SPM.SnapKit,
-        .SPM.RxCocoa,
-        .SPM.Swinject
+        .Projects.domain,
+        .Module.designSystem
     ]
 )

@@ -3,12 +3,11 @@ import ProjectDescriptionHelpers
 import DependencyPlugin
 
 let project = Project.makeModule(
-    name: "Feature",
-    resources: ["Resources/**"],
+    name: "Flow",
     platform: .iOS,
-    product: .staticFramework,
+    product: .staticLibrary,
     dependencies: [
-        .Projects.service,
-        .Module.designSystem
+        .Projects.data,
+        .Projects.presentation
     ]
 )
